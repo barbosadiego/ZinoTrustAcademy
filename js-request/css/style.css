@@ -51,6 +51,7 @@ img{
 
 button{
   padding: 1rem;
+  cursor: pointer;
 }
 
 hr{
