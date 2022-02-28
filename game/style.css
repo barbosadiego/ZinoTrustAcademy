@@ -41,6 +41,7 @@ p {
 .container {
     background: url(images/forest1.gif) center no-repeat;
     position: relative;
+    overflow: hidden;
 }
 
 .container::after {
@@ -75,7 +76,7 @@ p {
 }
 
 .animate {
-    animation: jump 0.3s linear;
+    animation: jump 0.5s linear;
 }
 
 @keyframes jump {
@@ -86,7 +87,7 @@ p {
         top: 100px;
     }
     50% {
-        top: 60px;
+        top: 10px;
     }
     70% {
         top: 100px;
@@ -102,8 +103,8 @@ p {
     height: 20px;
     position: relative;
     top: 95px;
-    left: 450px;
-    animation: move 1s infinite linear;
+    left: 410px;
+    /* animation: move 1s infinite linear; */
     z-index: 1;
 }
 
